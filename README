@@ -1,7 +1,4 @@
-twissandra-java
-===============
-
-Twitter on Cassandra in Java
+TWISSJAVA: Twitter on Cassandra in Java.
 
 Deps:
  + Maven: this will load our build deps.

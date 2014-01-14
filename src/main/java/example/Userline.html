@@ -1,0 +1,27 @@
+<html>
+<head></head>
+<body>
+  <wicket:extend>
+    <form wicket:id="poster">
+      <div class="grid_9 alpha">
+        <textarea maxlength="140" rows="4" cols="40" type="text" wicket:id="tweetbody"></textarea>
+      </div>
+      <input type="submit" value="Post Tweet" class="grid_3 omega">
+      <div class="clear"></div>
+    </form>
+
+    <span class="grid_9 alpha" wicket:id="tweetlist">
+      <ul>
+        <li>
+          <a href="#" wicket:id="link"><span wicket:id="tuname">name</span></a><span wicket:id="tbody">body</span>
+        </li>
+      </ul>
+    </span>
+    <div wicket:id="pagedown">
+      <form wicket:id="pageform">
+        <input type="submit" value="More"/>
+      </form>
+    </div>
+  </wicket:extend>
+</body>
+</html>
